@@ -1,6 +1,7 @@
 # jhn_sklep
 
 Simple script for shop with coins for command.
+<h1>How to start</h1>
 Add following command to server config file:<br>
 
 ```ensure jhn_sklep```
