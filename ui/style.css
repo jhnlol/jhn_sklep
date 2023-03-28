@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    background: transparent;
+    overflow: hidden;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(30, 30, 30, 0.9);
+    height: 50vh;
+    width: 50vw;
+    border-radius: 1.5rem;
+    display: none;
+
+}
+
+#title {
+    width: 95%;
+    margin: 2.5%;
+    height: 10%;
+}
+#ilosc {
+    position: absolute;
+    top: 4%;
+    left: 83%;
+    color: azure;
+    font-size: 2vh;
+    text-align: center;
+}
+#pierwszaskrzyania {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: azure;
+    font-size: 2.5vh;
+    text-align: center;
+}
+#pierwszaskrzyaniacena {
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    color: azure;
+    font-size: 2.5vh;
+    text-align: center; 
+}
+#drugaskrzyania {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: azure;
+    font-size: 2.5vh;
+    text-align: center;
+}
+#drugaskrzyaniacena {
+    position: absolute;
+    top: 35%;
+    left: 39%;
+    color: azure;
+    font-size: 2.5vh;
+    text-align: center; 
+}
+#trzeciaskrzyania {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: azure;
+    font-size: 2.5vh;
+    text-align: center;
+}
+#trzeciaskrzyaniacena {
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    color: azure;
+    font-size: 2.5vh;
+    text-align: center; 
+}
+#czwartaskrzyania {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    color: azure;
+    font-size: 2.5vh;
+    text-align: center;
+}
+#czwartaskrzyaniacena {
+    position: absolute;
+    top: 65%;
+    left: 39%;
+    color: azure;
+    font-size: 2.5vh;
+    text-align: center; 
+}
+
+#zakup1 {
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    top: 14.5%;
+    left: 79%;
+    margin: 2.5%;
+    height: 8%;
+    transform: translateX(-50%);
+    color: azure;
+    font-size: 2vh;
+    border: 0.025em solid rgb(0, 255, 34);
+    background-color: rgba(40, 40, 40, 0.95);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#zakup2 {
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    top: 29%;
+    left: 79%;
+    margin: 2.5%;
+    height: 8%;
+    transform: translateX(-50%);
+    color: azure;
+    font-size: 2vh;
+    border: 0.025em solid rgb(0, 255, 34);
+    background-color: rgba(40, 40, 40, 0.95);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#zakup3 {
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    top: 43.5%;
+    left: 79%;
+    margin: 2.5%;
+    height: 8%;
+    transform: translateX(-50%);
+    color: azure;
+    font-size: 2vh;
+    border: 0.025em solid rgb(0, 255, 34);
+    background-color: rgba(40, 40, 40, 0.95);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#zakup4 {
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    top: 58.7%;
+    left: 79%;
+    margin: 2.5%;
+    height: 8%;
+    transform: translateX(-50%);
+    color: azure;
+    font-size: 2vh;
+    border: 0.025em solid rgb(0, 255, 34);
+    background-color: rgba(40, 40, 40, 0.95);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#zakup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text {
+    color: azure;
+    font-size: 4.5vh;
+    text-align: center;
+}
+
+#close {
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    left: 47%;
+    margin: 2.5%;
+    height: 8%;
+    transform: translateX(-50%);
+    color: azure;
+    font-size: 2vh;
+    border: 0.025em solid red;
+    background-color: rgba(40, 40, 40, 0.95);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#close_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
