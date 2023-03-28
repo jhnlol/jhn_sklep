@@ -21,7 +21,7 @@ AddEventHandler('jhn_sklep:skrzynia', function(skrzynia)
 			local items = xPlayer.getInventoryItem('moneta')
 			
 			if items == nil then
-				xPlayer.showNotification('Nie posiadasz tyle coinsow1')
+				xPlayer.showNotification('Nie posiadasz tyle coinsow')
 			else
 				if (items.count >= 25) then 
 					xPlayer.removeInventoryItem('moneta', 25)
@@ -35,7 +35,7 @@ AddEventHandler('jhn_sklep:skrzynia', function(skrzynia)
 			local items = xPlayer.getInventoryItem('moneta')
 			
 			if items == nil then
-				xPlayer.showNotification('Nie posiadasz tyle coinsow1')
+				xPlayer.showNotification('Nie posiadasz tyle coinsow')
 			else
 				if (items.count >= 30) then 
 					xPlayer.removeInventoryItem('moneta', 30)
@@ -49,7 +49,7 @@ AddEventHandler('jhn_sklep:skrzynia', function(skrzynia)
 			local items = xPlayer.getInventoryItem('moneta')
 			
 			if items == nil then
-				xPlayer.showNotification('Nie posiadasz tyle coinsow1')
+				xPlayer.showNotification('Nie posiadasz tyle coinsow')
 			else
 				if (items.count >= 50) then 
 					xPlayer.removeInventoryItem('moneta', 50)
@@ -63,7 +63,7 @@ AddEventHandler('jhn_sklep:skrzynia', function(skrzynia)
 			local items = xPlayer.getInventoryItem('moneta')
 			
 			if items == nil then
-				xPlayer.showNotification('Nie posiadasz tyle coinsow1')
+				xPlayer.showNotification('Nie posiadasz tyle coinsow')
 			else
 				if (items.count >= 50) then 
 					xPlayer.removeInventoryItem('moneta', 50)
